@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="middle"
+    >
+    
+<fragment
+    android:id="@+id/left_fragment"
+    android:name="com.carker.activity.LeftFragment"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent">
+
+</fragment>
+<fragment
+    android:id="@+id/right_fragment"
+    android:name="com.carker.activity.RightFragment"
+    android:layout_width="0dp"
+    android:layout_weight="2"
+    android:layout_height="match_parent" />
+</LinearLayout>
