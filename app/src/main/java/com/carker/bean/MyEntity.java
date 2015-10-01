@@ -38,4 +38,6 @@ public class MyEntity {
     public void setTitle(String title) {
         this.title = title;
     }
+
+
 }

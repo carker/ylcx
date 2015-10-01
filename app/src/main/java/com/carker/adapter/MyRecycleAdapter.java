@@ -34,7 +34,8 @@ public class MyRecycleAdapter extends RecyclerView.Adapter implements View.OnCli
             ViewHolder holder= (ViewHolder) viewHolder;
             holder.textView.setText(list.get(i).getTitle());
         holder.textTwo.setText(list.get(i).getIndex());
-        holder.textThree.setText(list.get(i).getContent());
+//        holder.textThree.setText(list.get(i).getContent());
+        holder.textThree.setText(list.get(i).getTitle());
             holder.itemView.setTag(list.get(i));
     }
 

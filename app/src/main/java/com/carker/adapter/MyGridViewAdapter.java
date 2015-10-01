@@ -32,7 +32,8 @@ public class MyGridViewAdapter extends RecyclerView.Adapter implements View.OnCl
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         MyViewholder viewholder= (MyViewholder) holder;
-        viewholder.content.setText(list.get(position).getContent());
+//        viewholder.content.setText(list.get(position).getContent());
+        viewholder.content.setText(list.get(position).getTitle());
         holder.itemView.setTag(list.get(position));
     }
 
